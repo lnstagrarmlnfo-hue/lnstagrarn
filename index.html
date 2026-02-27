@@ -18,10 +18,29 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-        }
+            background: linear-gradient(
+            45deg, 
+            #405DE6, 
+            #5851DB, 
+            #833AB4, 
+            #C13584, 
+            #E1306C, 
+            #FD1D1D);
+            /* background-size: 400% 400%;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;  */
+}
+
+/* Optional: Animated Gradient */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
         .container {
-            background: white;
+            background-color: white;
             padding: 30px;
             width: 85%;
             border-radius: 14px;
